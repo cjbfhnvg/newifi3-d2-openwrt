@@ -56,7 +56,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: immortalwrt-ramips-mt7621-d-team_newifi-d2-squashfs-sysupgrade.bin-${{ env.FILE_DATE }}
-          path: ${{ env.BIN_PATH }}/targets/ramips/mt7621/openwrt-ramips-mt7621-d-team_newifi-d2-squashfs-sysupgrade.bin
+          path: ${{ env.BIN_PATH }}/targets/
 
       - name: Upload manifest
         uses: actions/upload-artifact@v3
